@@ -1,0 +1,143 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	transform: translate3d(0, 0, 0);
+}
+ 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+a,a:visited{
+    color: cornflowerblue;
+}
+header{
+    margin-bottom: 10px;
+    font-size: 0;
+}
+.header__logotip, .header__menu{
+    
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.header__logotip{
+    text-align: center;
+    width: 30%;
+    background-color: rgb(62, 64, 65);
+    opacity: .7;
+    
+}
+.header__menu{
+    text-align: center;
+    width: 40%;
+    background-color: rgb(62, 64, 65);
+    opacity: .7;
+}
+.work-area{
+    font-size: 0;
+    padding-bottom: 60px;
+}
+.sidebar,.content{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.sidebar{
+    width: 30%;
+    background-color: azure;
+}
+.sidebar__zagolovok{
+    font-size: 18px;
+}
+.sidebar__menu{
+    padding: 0 0 0 20px;
+}
+.content{
+    width: 100%; 
+    text-align: center;
+}
+p .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+    font-size: 17px;
+    padding: 200 200 0 200;
+    margin-bottom: 0;
+}
+h1 {
+    margin: 0;
+    font-size: 36px;
+   }
+footer .container{
+    text-align: center;
+    background-color: rgb(62, 64, 65);
+    opacity: .7;
+    color: azure;
+    padding: 10px;
+}
+
+.wrapper{
+    min-height: 100%;
+}
+footer{
+    margin-top: -5px;
+}
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+   }
+p {
+    margin-bottom: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  
+    
+}
+
+.header__menu a {
+    color: #fdfcfc;
+    text-decoration: none;
+    padding: 10px;
+   }
+   .header__menu a:hover {
+    background-color: #6778e7;
+    color: #fff;
+   }
+.kontact{
+    width: 100%; 
+    text-align: center;
+}
